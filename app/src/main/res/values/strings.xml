@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Rohan Fancy</string>
+
+    <string name="welcome">Best in class products</string>
+
+    <string name="price">Price:</string>
+
+    <string name="size">Sizes Available:</string>
+    <string name="usersize">Enter desired Size here</string>
+
+    <string name="desc">Description:</string>
+
+    <string name="only">#OnlyOnRohanFancy</string>
+
+    <string name="call">Call Nitin</string>
+
+    <string name="about">About Us</string>
+
+    <string name="available_color">Available in different shades of variety of colours. \nContact RF for more info about colours available for the product.
+        \n\nContact Info: 9324617755 (or press the phone icon above right of screen).
+    </string>
+
+    <string name="noProduct">No product Found</string>
+
+    <string name="enquiry">For any help regarding the product, contact RF through</string>
+
+    <string name="message">Give the above order to RF through: </string>
+
+    <string name="aboutrf">Rohan Fancy is a brand of Kavita Enterprise and we manufactures best quality legwear  for women since 2010.</string>
+
+    <string name="aboutme">Powered by Freelancer <b>Akash Dhanwani</b></string>
+
+    <string name="hire">Connect with me through</string>
+
+    <string name="color">Colour: </string>
+    <string name="userColor">Enter desired Color here</string>
+
+    <string name="quantity">Number of products: </string>
+    <string name="userQuantity">Click </string>
+
+    <string name="placeOrder">Place your order</string>
+
+    <string name="orderDetails">Order details:</string>
+
+    <string name="payment">Payment Details:</string>
+
+    <string name="bankDetails"><b>Bank Details:</b>\n
+    <b>Accountant Name:</b> KAVITA ENTERPRISE\n
+        <b>Bank Name:</b> Bank of Baroda\n
+    <b>IFSC code:</b> BARB0MAHULH</string>
+
+    <string name="paytm"><b>PayTm through:</b>\n
+    <b>Number:</b> 9324617755</string>
+</resources>

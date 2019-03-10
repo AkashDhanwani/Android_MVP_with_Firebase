@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "719249350525",
+    "firebase_url": "https://rohanfancy-a1e0f.firebaseio.com",
+    "project_id": "rohanfancy-a1e0f",
+    "storage_bucket": "rohanfancy-a1e0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719249350525:android:da50a1b09690e287",
+        "android_client_info": {
+          "package_name": "com.akash.rohonfancy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719249350525-b32p3n744onrt8t50jc3442gdiu33faf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akash.rohonfancy",
+            "certificate_hash": "103db2e5e4860e43355d4595aa7f9110dd1bf1a9"
+          }
+        },
+        {
+          "client_id": "719249350525-9h34tknjt02fhqr08uauvkgghsvh3l0h.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "719249350525-9h34tknjt02fhqr08uauvkgghsvh3l0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnE0ivAJJ8207umE9jdOdZsYZZupUNaxk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719249350525-9h34tknjt02fhqr08uauvkgghsvh3l0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

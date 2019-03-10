@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.akash.rohonfancy.view_presenter.about_us.AboutUs">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rf_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/app_name"
+        android:textColor="@color/name_color"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="serif"
+        android:text="@string/aboutrf"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:src="@drawable/android_peeking_right" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="@string/aboutme"
+        android:textColor="@color/my_intro"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="97dp"
+        android:layout_toStartOf="@+id/textView"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/imageView3"
+        android:fontFamily="serif"
+        android:text="@string/hire"
+        android:textColor="@color/my_intro"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btnGmailaboutme"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/gmail" />
+
+    <Button
+        android:id="@+id/btnLinkedin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/btnGmailaboutme"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/linkedin" />
+
+    <Button
+        android:id="@+id/btncallaboutme"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/btnGmailaboutme"
+        android:layout_gravity="right"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/btnLinkedin"
+        android:background="@mipmap/call_round" />
+</RelativeLayout>

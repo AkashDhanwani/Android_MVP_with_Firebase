@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.akash.rohonfancy">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".MainClass"
+        android:allowBackup="true"
+        android:icon="@drawable/rf_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:logo="@drawable/rf_logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view_presenter.main.MainActivity">
+
+        </activity>
+        <activity android:name=".view_presenter.productinfo.ProductInfo" />
+        <activity android:name=".view_presenter.image_detail.ImageDetail" />
+        <activity android:name=".view_presenter.about_us.AboutUs" />
+        <activity android:name=".view_presenter.place_order.PlaceOrder" />
+        <activity
+            android:name=".view_presenter.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
